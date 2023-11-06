@@ -9,8 +9,6 @@ public class ArrayDemo
 
         numArray = new int [10];
 
-        numArray[0] = 100;
-
         for (i = 0; i < 10; i++)
         {
             x+=100;
@@ -18,6 +16,7 @@ public class ArrayDemo
         }
 
         int indexValue = 0;
+
 
         for (int value : numArray)
         {
